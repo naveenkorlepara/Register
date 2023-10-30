@@ -1,0 +1,90 @@
+.form{
+    border: 1px solid green;
+    width: 500px;
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    background:linear-gradient(to bottom right,rgb(247, 167, 181,0.8),rgb(247, 167, 181,0.6));
+    
+}
+.form label{
+     font-style: normal;
+     font-size: larger;
+     color: rgb(140, 212, 242);
+
+
+}
+.form .in{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    
+}
+.form input{
+    width:200px;
+    padding:10px;
+    border-right: 3px solid rgb(192, 238, 255);
+    margin-bottom: 20px;
+    background: transparent;
+    border-bottom:1px solid orange;
+    border-top:1px solid rgb(186, 184, 184);
+    border-left:1px solid rgb(186, 184, 184);
+  
+
+    
+
+
+
+}
+.form .in #un{
+    display:flex;
+    justify-content: space-around;
+}
+.form .in #ps{
+    display:flex;
+    justify-content: space-around;
+}
+#cps{
+    display:flex;
+    justify-content:space-around ; 
+}
+#emai{
+    display:flex;
+    justify-content:space-around;
+    
+}
+ #emai #hh{
+    margin-left:30px;
+}
+
+#phn{
+    display:flex;
+    justify-content:space-around;
+}
+#dab{
+    display:flex;
+    justify-content:space-around;
+}
+#dab #hhh{
+    margin-left:30px;
+}
+#add{
+    display:flex;
+    justify-content:space-around;
+}
+#add #hy{
+    margin-left:21px;
+}
+#btn{
+    display: flex;
+    margin:auto ;
+    text-align: center;
+    padding:10px 20px;
+    background-color:aquamarine;
+    color:black;
+    font-size: medium;
+    text-shadow:1rem ;
+    border-bottom-right-radius:5px ;
+    box-shadow:20px;
+   
+}
